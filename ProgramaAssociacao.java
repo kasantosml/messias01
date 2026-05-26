@@ -1,9 +1,9 @@
 public class ProgramaAssociacao {
     public static void main(String[] args) {
 
-        Autor autor1 = new Autor("Jorge Amado", "Brasileiro");
+        Autor autor1 = new Autor("Manoel Messias", "Brasileiro");
 
-        Livro livro1 = new Livro("Capitães da Areia", autor1);
+        Livro livro1 = new Livro("Java", autor1);
 
         Capitulo cap1 = new Capitulo(1, "Cap 1");
         Capitulo cap2 = new Capitulo(2, "Cap 2");
